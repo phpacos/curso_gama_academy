@@ -18,3 +18,27 @@ body{
     box-shadow: black 2px 2px 5px;
 }
 
+a{
+    color: blue; /* Link visitado ou não visitado*/
+    text-decoration: unset; /*Desliga o padrão (sublinhado)*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/*Navbar com Flexbox*/
+#navbar{
+    display: flex;
+    justify-content: space-between; /*Espaço entre elementos na tela inteira*/
+    margin-bottom: 30px;
+}
+
+#imgLoja{
+    width: 100%; /*Se não especifica, o height ajusta automaticamente*/
+}
+
+#tituloDestaque{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-shadow: grey 1px 1px 5px;
+}
