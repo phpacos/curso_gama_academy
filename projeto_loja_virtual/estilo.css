@@ -18,6 +18,20 @@ body{
     box-shadow: black 2px 2px 5px;
 }
 
+#produtos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtoDestaque{
+    margin-left: 10px;
+    border: gray 1px solid;
+    box-shadow: gray 2px 2px 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+
 a{
     color: blue; /* Link visitado ou não visitado*/
     text-decoration: unset; /*Desliga o padrão (sublinhado)*/
@@ -41,4 +55,21 @@ a{
     display: flex;
     justify-content: center;
     text-shadow: grey 1px 1px 5px;
+}
+
+#rodape{
+    background-color: rgb(32, 32, 32);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+
+button{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 3px;
+    border-radius: 2px;
 }
