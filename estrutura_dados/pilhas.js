@@ -61,6 +61,6 @@ while(nDec != 0){
 }
 //desempilhando
 console.log("desempilhando...")
-while(!vazia){
+while(!vazia()){
     console.log(pop());
 }
