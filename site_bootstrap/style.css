@@ -1,0 +1,33 @@
+h3, h5{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(148, 250, 148);
+}
+
+.container{
+    background-color: white;
+}
+
+#imgPrincipal{
+    width: 100%;
+}
+
+#rowPrincipal{
+    margin-bottom: 30px;
+}
+
+#tituloDestaque{
+    margin-bottom: 20px;
+}
+
+#colCards{
+    margin-bottom: 20px;
+}
+
+#rodape{
+    background-color: rgb(0, 44, 0);
+    color: white;
+    padding-top: 20px;
+}
